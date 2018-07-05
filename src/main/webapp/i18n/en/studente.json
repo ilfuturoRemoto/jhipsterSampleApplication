@@ -1,0 +1,25 @@
+
+{
+    "jhipsterSampleApplicationApp": {
+        "studente" : {
+            "home": {
+                "title": "Studentes",
+                "createLabel": "Create a new Studente",
+                "createOrEditLabel": "Create or edit a Studente"
+            },
+            "created": "A new Studente is created with identifier {{ param }}",
+            "updated": "A Studente is updated with identifier {{ param }}",
+            "deleted": "A Studente is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Studente {{ id }}?"
+            },
+            "detail": {
+                "title": "Studente"
+            },
+            "nome": "Nome",
+            "cognome": "Cognome",
+            "eta": "Eta",
+            "id": "Id"
+        }
+    }
+}
