@@ -1,0 +1,18 @@
+entity Studente {
+	nome String
+    cognome String
+    eta Integer
+    id Integer
+    
+    
+}
+entity Utente {
+    id Integer
+	username String
+    password String
+}
+relationship OneToOne {
+	Studente{id} to Utente
+}
+
+
